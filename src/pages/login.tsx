@@ -23,17 +23,17 @@ function Login() {
             <Container className="px-0 max-w-full grid grid-cols-2 place-items-stretch h-full">
                 <div className="object-fill bg-cover" style={{backgroundImage: `url(${background_image})`}}>
                     <div className="flex justify-center items-center h-full flex-col mt-10">
-                        <button className="w-1/2 rounded-full bg-white text-slate-600 mb-8 py-2.5 px-6 text-md flex flex-row justify-center">
+                        <button className="w-1/2 rounded-full bg-white text-slate-600 mb-8 py-2.5 px-6 text-md hover:font-bold flex flex-row justify-center">
                             <img src={GoogleLogo} alt="Google Logo" className="mr-3.5"/>
-                            Sign in with Google
+                            <span>Sign in with Google</span>
                         </button>
-                        <button className="w-1/2 rounded-full bg-white text-slate-600 mb-8 py-2.5 px-6 text-md flex flex-row justify-center">
+                        <button className="w-1/2 rounded-full bg-white text-slate-600 mb-8 py-2.5 px-6 text-md hover:font-bold flex flex-row justify-center">
                             <img src={MicrosoftLogo} alt="Microsoft Logo" className="mr-3.5"/>
-                            Sign in with Outlook
+                            <span>Sign in with Outlook</span>
                         </button>
-                        <button className="w-1/2 rounded-full bg-white text-slate-600 mb-8 py-2.5 px-6 text-md flex flex-row justify-center">
+                        <button className="w-1/2 rounded-full bg-white text-slate-600 mb-8 py-2.5 px-6 text-md hover:font-bold flex flex-row justify-center">
                             <img src={LinkedInLogo} alt="LinkedIn Logo" className="mr-3.5"/>
-                            Sign in with LinkedIn
+                            <span>Sign in with LinkedIn</span>
                         </button>
                     </div>
                 </div>
