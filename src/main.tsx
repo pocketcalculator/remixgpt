@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Route } from 'wouter';
 
-import Home from './pages/index';
+import Home from './pages/login';
 import Contact from './pages/contact';
 import Login from './pages/login';
 

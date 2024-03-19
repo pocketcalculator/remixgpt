@@ -9,7 +9,7 @@ import MicrosoftLogo from '../assets/microsoft_logo.svg';
 import LinkedInLogo from '../assets/linkedin_logo.svg';
 import background_image from '../assets/login_background.png'
 
-function Login() {
+function Home() {
     /**
      * handleOnSubmit
      */
@@ -77,4 +77,4 @@ function Login() {
     )
 }
 
-export default Login;
+export default Home;
