@@ -1,5 +1,3 @@
-import { Link } from 'wouter';
-import Container from '../Container';
 
 const Nav = () => {
   return (
@@ -18,7 +16,7 @@ const Nav = () => {
       <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-400 hover:text-slate-700 mr-4">
         About Us
       </a>
-      <a href="/contact" className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-400 hover:text-slate-700 mr-4">
+      <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-400 hover:text-slate-700 mr-4">
         Contact
       </a>
       <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-fuchsia-400 hover:text-slate-700">
